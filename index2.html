@@ -31,7 +31,11 @@
 
         <!-- Modernizr -->
         <script src="js/modernizr.js"></script>
-        
+        <script src="https://smtpjs.com/v3/smtp.js"></script> 
+		<script src="js/mail.js"></script>
+		
+		
+	</script>
 	    
     </head>
     <body data-spy="scroll" data-target="#main-menu">
@@ -913,33 +917,33 @@
                     <div class="row">
                         <div class="col-md-8 col-sm-10 col-md-push-2 col-sm-push-1">
                             <h2 class="text-center lg-margin">Get In Touch</h2>
-                            <form action="#" id="contact-form" method="post" novalidate>
+                            <form action="#" id="contact-form2" method="post" novalidate>
                                 <div class="form-group">
                                     <input type="text" name="contactname" id="contactname" required class="form-control input-lg">
-                                    <span class="animated-label">Your Name *</span>
-                                </div><!-- End .form-group -->
+                                    <span class="animated-label">your name *</span>
+                                </div><!-- end .form-group -->
 
                                 <div class="form-group">
                                     <input type="email" name="contactemail" id="contactemail" required class="form-control input-lg">
-                                    <span class="animated-label">Your Email *</span>
-                                </div><!-- End .form-group -->
+                                    <span class="animated-label">your email *</span>
+                                </div><!-- end .form-group -->
 
                                 <div class="form-group">
                                     <input type="text" name="contactsubject" id="contactsubject" class="form-control input-lg">
-                                    <span class="animated-label">Subject</span>
-                                </div><!-- End .form-group -->
+                                    <span class="animated-label">subject</span>
+                                </div><!-- end .form-group -->
 
                                 <div class="form-group">
                                     <textarea name="contactmessage" id="contactmessage" class="form-control input-lg" cols="30" rows="7"></textarea>
-                                    <span class="animated-label textarea-label">Your Message *</span>
-                                </div><!-- End .form-group -->
+                                    <span class="animated-label textarea-label">your message *</span>
+                                </div><!-- end .form-group -->
 
                                 <div class="form-group text-center">
-                                    <input type="submit" class="btn btn-lightblue btn-lg" value="Send">
-                                    <input type="reset" class="btn btn-yellow btn-lg" value="Reset">
-                                </div><!-- End .form-group -->
+                                    <input type="button" class="btn btn-lightblue btn-lg" value="send" onclick="sendEmail()">
+                                    <input type="reset" class="btn btn-yellow btn-lg" value="reset">
+                                </div><!-- end .form-group -->
                             </form>
-                        </div><!-- End .col-md-8 -->
+						</div><!-- End .col-md-8 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
             </section>

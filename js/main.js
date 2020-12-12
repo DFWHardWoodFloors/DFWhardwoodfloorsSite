@@ -666,7 +666,7 @@
 		contactFormFixes: function () {
 			/* Contact form label animation check*/
 			/* if contact form input values are not empty, do not back move  its label*/
-			var contactFrom = $('#contact-form');
+			var contactFrom = $('#contact-form2');
 			contactFrom.find('input, textarea').on('blur', function () {
 				var $this = $(this),
 					inputVal = $this.val(),

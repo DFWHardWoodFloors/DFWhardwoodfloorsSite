@@ -22,7 +22,7 @@ body {
 .navbar-default.navbar-transparent.navbar-fixed-top,
 .navbar-fixed-top.navbar-default .dropdown .dropdown-menu, 
 .navbar-default .dropdown .dropdown-menu {
-	background-color: rgba(0,0,0, 0.75);
+	background-color: rgba(60, 39, 35, 0.75);
 }
 
 .navbar-transparent.navbar-fixed-top .logo-fixed, 
@@ -96,7 +96,7 @@ h1,h2,h3,h4,h5,h6,
 }
 
 .back {
-	background-color: #2a2a2a;
+	background-color: #c7893d;
 }
 
 .member h2 {

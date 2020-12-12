@@ -641,24 +641,36 @@
 		            },
 		            submitHandler: function (form) {
 
-		                /* ajax request will be updated here */
-		                $.ajax({
-    						type: 'post',
-    						url: 'php/mail.php',
-    						data: $(form).serialize(),
-    					}).done(function( data ) {
-    						if ( data == 'success') {
-    							alert('Email has been sent successfully!')
-    						} else if ( data == 'already') {
-    							alert( 'You already sent a message. Please try again later' );
-    						} else {
-    							alert( 'There is an error please try again later!' );
-    						}
-    					}).error(function() {
-    						alert( 'There is an error please try again later!' );
-    					});
+		                // /* ajax request will be updated here */
+		                // $.ajax({
+    						// type: 'post',
+    						// url: 'php/mail.php',
+    						// data: $(form).serialize(),
+    					// }).done(function( data ) {
+    						// if ( data == 'success') {
+    							// alert('Email has been sent successfully!')
+    						// } else if ( data == 'already') {
+    							// alert( 'You already sent a message. Please try again later' );
+    						// } else {
+    							// alert( 'There is an error please try again later!' );
+    						// }
+    					// }).error(function() {
+    						// alert( 'There is an error please try again later!' );
+    					// });
 
-		                return false;
+		                // return false;
+						
+						Email.send({
+						Host: "smtp.gmail.com",
+						Username : "hardwoodfloorsdfw@gmail.com",
+						Password : "dfw!gmail",
+						To : 'hardwoodfloorsdfw@gmail.com',
+						From: $("#contactemail").val() ,
+						Subject: $("#contactname").val() + ' ' + $("#contactsubject").val(),
+						Body : $("#contactmessage").val(),
+						}).then(
+							message => alert("Email has been sent successfully")
+						);
 		            }
 		        });
 		    }
@@ -666,7 +678,7 @@
 		contactFormFixes: function () {
 			/* Contact form label animation check*/
 			/* if contact form input values are not empty, do not back move  its label*/
-			var contactFrom = $('#contact-form2');
+			var contactFrom = $('#contact-form');
 			contactFrom.find('input, textarea').on('blur', function () {
 				var $this = $(this),
 					inputVal = $this.val(),

@@ -5796,7 +5796,7 @@ span.tab-icon {
 .redbg .portfolio-overlay .open-btn:hover,
 .portfolio-overlay.redbg .zoom-btn:hover,
 .redbg .portfolio-overlay .zoom-btn:hover {
-  background: rgba(201, 14, 49, 0.95);
+  background: #c90e3185;
 }
 
 .portfolio-overlay.lightbluebg .portfolio-tags a,
@@ -5805,7 +5805,7 @@ span.tab-icon {
 .lightbluebg .portfolio-overlay .open-btn:hover,
 .portfolio-overlay.lightbluebg .zoom-btn:hover,
 .lightbluebg .portfolio-overlay .zoom-btn:hover {
-  background: rgba(27, 196, 245, 0.95);
+  background: #1bc4f5b3;
 }
 
 .portfolio-overlay.bluebg .portfolio-tags a,
@@ -5814,7 +5814,7 @@ span.tab-icon {
 .bluebg .portfolio-overlay .open-btn:hover,
 .portfolio-overlay.bluebg .zoom-btn:hover,
 .bluebg .portfolio-overlay .zoom-btn:hover {
-  background: rgba(30, 83, 216, 0.95);
+  background: #1bc4f5b3;
 }
 
 .portfolio-overlay.lightgreenbg .portfolio-tags a,
@@ -5823,7 +5823,7 @@ span.tab-icon {
 .lightgreenbg .portfolio-overlay .open-btn:hover,
 .portfolio-overlay.lightgreenbg .zoom-btn:hover,
 .lightgreenbg .portfolio-overlay .zoom-btn:hover {
-  background: rgba(9, 211, 61, 0.95);
+  background: #b8eba0;
 }
 
 .portfolio-overlay.greenbg .portfolio-tags a,
@@ -5832,7 +5832,7 @@ span.tab-icon {
 .greenbg .portfolio-overlay .open-btn:hover,
 .portfolio-overlay.greenbg .zoom-btn:hover,
 .greenbg .portfolio-overlay .zoom-btn:hover {
-  background: rgba(11, 154, 11, 0.95);
+  background: #b8eba0;
 }
 
 .portfolio-overlay.purplebg .portfolio-tags a,

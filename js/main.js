@@ -134,7 +134,6 @@
 
 				$('.page-title').fitText(1.2, {minFontSize: '50px', maxFontSize: '120px' });
 			 }
-
 		},
 		homeSectionHeight:function () {
 			// Boxed version fix home section's height

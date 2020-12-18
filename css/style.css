@@ -2740,7 +2740,7 @@ a.list-group-item-purple.active:focus {
 
 .lightblue .accordion-panel-title,
 .accordion-panel-title.lightblue {
-  background:#1bc4f5;
+  background:#1bc4f5b3;
   color:#fff;
   border-color:#0aaedd;
 }
@@ -5662,7 +5662,7 @@ span.tab-icon {
 }
 
 #portfolio.section-bg {
-  background-image: url('../images/backgrounds/background7.jpg');
+  background-image: url('../images/backgrounds/background5.jpg');
 }
 
 /* ajax content will be loaded in here */

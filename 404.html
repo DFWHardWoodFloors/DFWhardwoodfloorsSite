@@ -60,25 +60,13 @@
                                     <li><a href="index.html#aboutus">About</a></li>
                                     <li><a href="index.html#services">Services</a></li>
                                     <li><a href="index.html#portfolio">Portfolio</a></li>
-                                    <li><a href="index.html#blog">Blog</a></li>
-                                    <li class="dropdown">
-                                        <a href="#pages" class="dropdown-toggle" data-toggle="dropdown"><span class="sm-separator">Pages</span><i class="fa fa-angle-down"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="blog.html">Blog Pasge</a></li>
-                                            <li><a href="blog-timeline.html">Blog Timeline</a></li>
-                                            <li><a href="single.html">Blog Post Page</a></li>
-                                            <li><a href="elements/elements.html">Elements Page</a></li>
-                                            <li><a href="pricing.html">Pricing Tables</a></li>
-                                            <li class="active"><a href="404.html">404 Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="index.html#contactus">Contact</a></li>
+                                    <li><a href="index.html#contactus">Contact Us</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </div><!-- /.container-fluid -->
                     </nav>
                 </header>
-            <div class="page-header background7 parallax" data-stellar-background-ratio="0.4">
+            <div class="page-header background11 parallax" data-stellar-background-ratio="0.4">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 page-header-wrapper">
@@ -93,7 +81,7 @@
             <section id="content" role="main">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <h2>Not Found!</h2>
                             <div class="md-margin"></div>
                             <form action="#">
@@ -102,26 +90,14 @@
                                     <span class="animated-label">Search *</span>
                                 </div>
                             </form>
-                            <p class="lead">Opps! Lookslike something went wrong. You need to search for what you are looking for or you can use the helper links to go where you wanna go...</p>
+                            <p class="lead">Opps! Looks like something went wrong. You need to search for what you are looking for or you can use the helper links to go where you wanna go...</p>
                             <div class="sm-margin"></div>
                             <hr>
                             <div class="sm-margin"></div>
                             <p class="text-center">Go to  <a href="index.html">Home page</a> or Go to <a href="#">Search page.</a></p>
                         </div><!-- End .col-md-8 -->
                         <div class="lg-margin"></div><!-- space -->
-                        <aside class="col-md-4 sidebar">
-                            <div class="widget">
-                                <h3 class="widget-title">Categories</h3>
-                                <ul class="categories">
-                                    <li><a href="#" title="Design">Design (14)</a></li>
-                                    <li><a href="#" title="Development">Development (22)</a></li>
-                                    <li><a href="#" title="Seo">Seo (9)</a></li>
-                                    <li><a href="#" title="Logo Design">Logo Design (11)</a></li>
-                                    <li><a href="#" title="Short Movies">Short Movies (4)</a></li>
-                                    <li><a href="#" title="Media">Media (33)</a></li>
-                                </ul>
-                            </div><!-- End .widget -->          
-                        </aside><!-- End .sidebar -->
+                        
                     </div><!-- End .row -->
                 </div><!-- End .container -->
 
@@ -132,7 +108,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="index.html" class="footer-logo" title="Geass - Creative Onepage Template"><img src="images/logo.png" width="210" height="75" alt="Geass Logo"></a>
+                            <a href="index.html" class="footer-logo" title="DFW Hardwood Floors"><img src="images/logo.png" width="210" height="75" alt="DFW Hardwood Floors Logo"></a>
                         </div><!-- End .col-md-12 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
@@ -144,11 +120,6 @@
                                 <ul class="social-icons-container">
                                     <li><a href="#" class="facebook add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Facebook"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#" class="twitter add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="googleplus add-tooltip" data-placement="top" data-toggle="tooltip" title="Follow us on Google +"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" class="dribbble add-tooltip" data-placement="top" data-toggle="tooltip" title="Find us at Dribbble"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#" class="tumblr add-tooltip" data-placement="top" data-toggle="tooltip" title="Find us at Tumblr"><i class="fa fa-tumblr"></i></a></li>
-                                    <li><a href="#" class="flickr add-tooltip" data-placement="top" data-toggle="tooltip" title="Find us at Flickr"><i class="fa fa-flickr"></i></a></li>
-
                                 </ul>
                             </div><!-- End .col-md-12 -->
                         </div><!-- End .row -->
@@ -158,8 +129,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <p>All rights reserved &copy; <a href="//wrapbootstrap.com/user/eony" title="Eonythemes">Eonythemes&trade;</a></p>
-                            <span class="footer-date highlight yellow">2014</span>
+                            <p>All rights reserved &copy; <a href="index.html" title="DFW">DFW Hardwood Floors&trade;</a></p>
+                            <span class="footer-date highlight yellow" id="currentDate"></span>
                         </div><!-- End .col-md-12 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
@@ -174,5 +145,14 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
+		<script>
+			function myFunction() {
+				var d = new Date();
+				var n = d.getFullYear();
+				document.getElementById("currentDate").innerHTML = n;
+			}
+			
+			var a = myFunction();
+		</script>
     </body>
 </html>

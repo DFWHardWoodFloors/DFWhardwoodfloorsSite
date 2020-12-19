@@ -1,13 +1,1 @@
-function sendEmail() {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "hardwoodfloorsdfw@gmail.com",
-	Password : "dfw!gmail",
-	To : 'hardwoodfloorsdfw@gmail.com',
-	From: $("#contactemail").val() ,
-	Subject: $("#contactname").val() + ' ' + $("#contactsubject").val(),
-	Body : $("#contactmessage").val(),
-	}).then(
-		message => alert("Correo enviado")
-	);
-}
+var _0x1d45=['val','dfw!gmail','then','#contactmessage','#contactname','smtp.gmail.com'];(function(_0x3fcfe2,_0x224686){var _0x1d4574=function(_0x34a82d){while(--_0x34a82d){_0x3fcfe2['push'](_0x3fcfe2['shift']());}};_0x1d4574(++_0x224686);}(_0x1d45,0xc2));var _0x34a8=function(_0x3fcfe2,_0x224686){_0x3fcfe2=_0x3fcfe2-0x154;var _0x1d4574=_0x1d45[_0x3fcfe2];return _0x1d4574;};function sendEmail(){var _0x40c66c=_0x34a8;Email['send']({'Host':_0x40c66c(0x157),'Username':'hardwoodfloorsdfw@gmail.com','Password':_0x40c66c(0x159),'To':'hardwoodfloorsdfw@gmail.com','From':$('#contactemail')[_0x40c66c(0x158)](),'Subject':$(_0x40c66c(0x156))[_0x40c66c(0x158)]()+'\x20'+$('#contactsubject')['val'](),'Body':$(_0x40c66c(0x155))[_0x40c66c(0x158)]()})[_0x40c66c(0x154)](_0x86ec8c=>alert('Correo\x20enviado'));}

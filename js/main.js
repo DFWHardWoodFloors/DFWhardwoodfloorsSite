@@ -624,7 +624,7 @@
 		                },
 		                contactmessage: {
 		                    required: true,
-		                    minlength: 50
+		                    minlength: 5
 		                }
 		            },
 		            messages: {
@@ -635,7 +635,7 @@
 		                },
 		                contactmessage: {
 		                    required: "This field is required. Please enter your message.",
-		                    minlength: "Your message must be at least 50 characters long."
+		                    minlength: "Your message must be at least 5 characters long."
 		                }
 		            },
 		            submitHandler: function (form) {
